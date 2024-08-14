@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/Design\ sem\ nome\ \(2\)\ 11.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, textarea {
+    border: 1px solid #000000;
+}
+
+.container .conteudo {
+    width: 450px;
+    margin-top: 145px;
+    color: #fff;
+    float: left;
+}
+
+.container .conteudo h1 {
+    padding-bottom: 11px;
+    font-weight: 900;
+}
+
+.container .conteudo p {
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 60px;
+}
+
+.container .container-conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.container .obrigatorio {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.container .textarea {
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.container-conteudo .campo-obrigatorio {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+
+.container-conteudo .enviar-btn {
+    height: 80px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    border: none;
+}
+
+.borda-verde {
+    border: 1px solid green;
+}
+
+.borda-vermelha {
+    border: 1px solid red;
+}
+
+.aparecer {
+    opacity: 1;
+    color: red;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.aparecer.ativo {
+    opacity: 0;
+}
